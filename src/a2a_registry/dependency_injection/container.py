@@ -9,6 +9,7 @@ from azure.mgmt.apicenter import ApiCenterMgmtClient
 from azure.mgmt.apicenter.models import Api
 from dotenv import load_dotenv
 from lagom import Container
+from lagom.interfaces import ReadableContainer
 
 from a2a_registry.config.configuration import Configuration
 from a2a_registry.config.logs import LoggingConfig
