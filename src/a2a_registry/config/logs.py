@@ -10,7 +10,7 @@ from logging import Logger
 class LoggingConfig:
     """Logging Configuration class."""
 
-    name: str = field(default="deterministic_agent")
+    name: str = field(default="a2a_registry")
 
     config_path: str = field(default="config/logging.conf")
 
